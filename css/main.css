@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    height: 120px;
+    background-color: #fcfcff;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #202142;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+
+}
+
+
+.logo-imagem {
+
+    width: 120px;
+}
+
+nav {
+    display: flex;
+}
+
+header .navbar {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header .navbar li {
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+header .navbar a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #202142;
+}
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+header .usuario-icone {
+    border-radius: 100%;
+    width: 40px;
+}
+
+header .sino-icone {
+    width: 40px;
+}
+
+header .notificar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+header .notificar button {
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    background: #202142;
+    border-radius: 10px;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    gap: 150px;
+}
+
+.corpo aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo aside h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.corpo aside .funcoes {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+    padding: 0px;
+    gap: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+main .campo-email h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
+
+main .campo-email h2 {
+    padding-top: 20px;
+
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+main .campo-email-texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .campo-email-texto p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+main .campo-email-texto a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #201CCD;
+}
+
+main .campo-senha {
+    display: flex;
+    flex-direction: column;
+}
+
+main .campo-senha .senha-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .campo-senha .senha-titulo h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+main .campo-senha .senha-titulo a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #201CCD;
+}
+
+main .campo-senha .mudar-senha {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+main .campo-senha .mudar-senha p {
+    font-family: Poppins;
+    font-size: 12px;
+    position: absolute;
+}
+
+main .campo-senha .mudar-senha input {
+    height: 60px;
+    width: 200px;
+    margin-top: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #C3C3E4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main .campo-senha p {
+    padding: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #202142;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+/***NAVEGAÇÃO***/
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.navbar li {
+    padding: 12px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navbar a {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*exceção*/
+
+@media all and (min-width:768px) {
+    .navbar {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+
+    .corpo {
+        display: flex;
+    }
+
+    main {
+        flex: 75%;
+    }
+
+    aside {
+        flex: 25%;
+    }
+}
